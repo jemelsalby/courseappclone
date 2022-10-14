@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AddcourseComponent } from './addcourse/addcourse.component';
 
 const routes:Routes=[
   {
@@ -16,7 +17,8 @@ const routes:Routes=[
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    AddcourseComponent
   ],
   imports: [
     BrowserModule,
